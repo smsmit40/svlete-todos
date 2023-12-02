@@ -2,6 +2,9 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
+import dotenv from 'dotenv';
+
+
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -9,7 +12,7 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDENW9yN_2Kn072ZH1pKgJ6IHdQOw8x4Rc",
+  apiKey: import.meta.env.VITE_API_KEY,
   authDomain: "svelte-todos-7b309.firebaseapp.com",
   projectId: "svelte-todos-7b309",
   storageBucket: "svelte-todos-7b309.appspot.com",
