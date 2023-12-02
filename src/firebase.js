@@ -12,7 +12,7 @@ dotenv.config()
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: process.env.API_KEY,
+  apiKey: "AIzaSyDENW9yN_2Kn072ZH1pKgJ6IHdQOw8x4Rc",
   authDomain: "svelte-todos-7b309.firebaseapp.com",
   projectId: "svelte-todos-7b309",
   storageBucket: "svelte-todos-7b309.appspot.com",
